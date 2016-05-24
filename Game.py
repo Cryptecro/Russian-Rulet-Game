@@ -10,10 +10,15 @@ player3 = raw_input("Enter player 3 name: ")
 player4 = raw_input("Enter player 4 name: ")
 doesshoot = 0 
 vars = [player1,player2,player3,player4]
+Deade = random.choice(vars)
+shoot = random.randint(1,7)
+  
+if shoot == 7 
+  print %Deade "Dies"
+else:
+  print %Deade "Lives
 
-print random.choice(vars)
-if doesshoot = 0 
-  print random.choice(vars) 
-  print "lives"
-  #making vars 1/6 chance 
-print "Dies"
+int i = 0
+for int i < 4:
+  
+  i++
